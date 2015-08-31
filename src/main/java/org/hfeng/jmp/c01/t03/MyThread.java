@@ -1,6 +1,6 @@
 package org.hfeng.jmp.c01.t03;
 
-public class MyThread extends Thread{
+public class MyThread extends Thread {
     @Override
     public void run() {
         try {

@@ -2,6 +2,7 @@ package org.hfeng.jmp.c02.t03;
 
 public class HasSelfPrivateNum {
     private int num = 0;
+
     public synchronized void addI(String username) {
         try {
             if (username.equals("a")) {

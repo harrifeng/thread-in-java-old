@@ -1,6 +1,6 @@
 package org.hfeng.jmp.c01.t06;
 
-public class MyThread extends Thread{
+public class MyThread extends Thread {
     private int count = 5;
 
     @Override

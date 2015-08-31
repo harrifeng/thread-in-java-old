@@ -2,6 +2,7 @@ package org.hfeng.jmp.c01.t05;
 
 public class MyThread extends Thread {
     private int count = 5;
+
     public MyThread(String name) {
         super();
         this.setName(name);
