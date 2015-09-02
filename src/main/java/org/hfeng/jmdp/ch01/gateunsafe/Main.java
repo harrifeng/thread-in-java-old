@@ -10,14 +10,15 @@ public class Main {
     }
 }
 
-
 ////////////////////////////////////////////////////
 // <===================OUTPUT===================> //
-// Testing Gate, hit CTRL+C to exit.              //
 // Alice BEGIN                                    //
 // Bobby BEGIN                                    //
 // Chris BEGIN                                    //
 // **** BROKEN ****No.254: Alice, Alaska          //
 // **** BROKEN ****No.364: Chris, Canada          //
-// .......                                        //
+// **** BROKEN ****No.285022: Chris, Canada       //
+// **** BROKEN ****No.285126: Chris, Canada       //
+// **** BROKEN ****No.286702: Chris, Canada       //
+// **** BROKEN ****No.287216: Bobby, Canada       //
 ////////////////////////////////////////////////////
