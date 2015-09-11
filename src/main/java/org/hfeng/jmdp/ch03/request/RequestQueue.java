@@ -1,10 +1,11 @@
 package org.hfeng.jmdp.ch03.request;
 
-import java.util.concurrent.BlockingDeque;
-import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.BlockingQueue;
+
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class RequestQueue {
-    private final BlockingDeque<Request> queue = new LinkedBlockingDeque<>();
+    private final BlockingQueue<Request> queue = new LinkedBlockingQueue<>();
 
     public Request getRequest() {
         Request req = null;
