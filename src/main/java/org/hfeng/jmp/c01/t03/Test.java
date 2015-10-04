@@ -7,7 +7,7 @@ public class Test {
             thread.setName("myThread");
             thread.start();
 
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 5; i++) {
                 int time = (int) (Math.random() * 1000);
                 Thread.sleep(time);
                 System.out.println("main=" + Thread.currentThread().getName());
@@ -17,3 +17,18 @@ public class Test {
         }
     }
 }
+
+
+////////////////////////////////////////////////////
+// <===================OUTPUT===================> //
+// main=main                                      //
+// run=myThread                                   //
+// main=main                                      //
+// run=myThread                                   //
+// main=main                                      //
+// main=main                                      //
+// run=myThread                                   //
+// run=myThread                                   //
+// run=myThread                                   //
+// main=main                                      //
+////////////////////////////////////////////////////
