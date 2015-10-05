@@ -1,4 +1,4 @@
-package org.hfeng.test.safe.unsafe;
+package org.hfeng.test.safe;
 
 public class UserThread extends Thread {
     private Data data;
