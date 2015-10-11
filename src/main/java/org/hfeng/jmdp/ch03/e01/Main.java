@@ -1,4 +1,4 @@
-package org.hfeng.jmdp.ch03.request;
+package org.hfeng.jmdp.ch03.e01;
 
 public class Main {
     public static void main(String[] args) {

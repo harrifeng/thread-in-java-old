@@ -1,4 +1,4 @@
-package org.hfeng.jmdp.ch03.request;
+package org.hfeng.jmdp.ch03.e01;
 
 import java.util.Random;
 
