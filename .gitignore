@@ -11,6 +11,9 @@ gradle-app.setting
 thread-in-java.iml
 thread-in-java.ipr
 thread-in-java.iws
+.idea/
 
 # Intellij build folder
 out/
+
+
